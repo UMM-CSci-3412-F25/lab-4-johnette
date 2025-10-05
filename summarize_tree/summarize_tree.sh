@@ -48,5 +48,4 @@ echo "There were $NUM_REGULAR regular files."
 if [ "$NUM_DIRS" -eq 0 ] && [ "$NUM_REGULAR" -eq 0 ]; then
     echo "Note: No directories or regular files found under \"$START_PATH\"."
 fi
-
 exit 0
